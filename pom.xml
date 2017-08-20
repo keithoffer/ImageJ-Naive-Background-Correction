@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>12.0.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>com.keithoffer</groupId>
+	<artifactId>Naive_Background_Correction</artifactId>
+	<version>1.0.0</version>
+
+	<name>Naive Background Correction</name>
+	<description>A simple plugin for ImageJ 1.x to perform a simple uneven background brightness correction.</description>
+	<url>https://github.com/keithoffer/imagej-naive-background-correction/</url>
+	<inceptionYear>2017</inceptionYear>
+	<licenses>
+		<license>
+			<name>Expat License (MIT)</name>
+			<url>http://directory.fsf.org/wiki/License:Expat</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>kroffer</id>
+			<name>Keith Offer</name>
+			<url>https://keybase.io/keithoffer</url>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<properties>
+		<package-name>com.keithoffer.imagej</package-name>
+		<main-class>com.keithoffer.imagej.Naive_Background_Correction</main-class>
+		<license.licenseName>expat</license.licenseName>
+		<license.copyrightOwners>Keith Offer</license.copyrightOwners>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
+</project>
